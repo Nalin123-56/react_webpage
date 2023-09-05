@@ -1,0 +1,71 @@
+.leftpanebox{
+    flex: 2;
+    height: calc(100vh - 50px);
+    overflow: scroll;
+    position: sticky;
+    top: 50px;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgb(121, 123, 124);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(57, 58, 58);
+}
+
+
+
+.leftpanecontainer{
+    padding: 20px;
+}
+
+.leftpanemenu{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.leftpanemenuitem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.leftpanemenuicon{
+    margin-right: 20px;
+}
+
+.pagepic{
+    width: 32px;
+    height: 32px;;
+}
+
+.pagesyouliked{
+    font-family:sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    color: gray;
+}
+
+.pagelist{
+    padding: 0;
+    margin: 0;
+
+}
+
+.pagelistitem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    
+}
+
+.pagename{
+    margin-left: 10px;
+}
